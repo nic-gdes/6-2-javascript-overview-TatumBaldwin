@@ -1,5 +1,5 @@
 // 1.1 Assignment: Where do you put JavaScript?
-
+alert('Javascript is easy')
 // 1.2 Assignment: Variables
 
 // 1.3 Assignment: Variable Declaration & Initialization
