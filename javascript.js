@@ -7,12 +7,24 @@ alert('Javascript is easy')
 var mansName = "john";
 console.log(mansName);
 
+/* In this example we wanted to create multiple variables with everything we know about John:
+
+var man_firstName = "John";
+var man_lastName = "Doe";
+var man_age = 25;
+var man_location = "United Kingdom";
+
+console.log(man_firstName, man_lastName, man_age, man_location);
+
+*/
+
+
 // 1.3 Assignment: Variable Declaration & Initialization
 
 var z = "Donkey";
 var y = 1;
 var x = false;
-var w = undefined;
+var w = undefined; // This works, but you could also just declare the variable and immediately end the statement: "var w;"
 var v = null;
 
 console.log(z, y, x, w, v);
@@ -58,3 +70,15 @@ var b = 3;
 var c = 5;
 
 console.log(a * b / c)
+
+/* Cloase! We were looking for a new variable that did the calculation:
+
+var a = 4;
+var b = 3;
+var c = 5;
+
+var area = a * b / c;
+
+console.log(area);
+
+*/
